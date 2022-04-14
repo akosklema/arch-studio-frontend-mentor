@@ -1,0 +1,18 @@
+.empty-button {
+  border: none;
+  background-color: var(--clr-dark-blue);
+  color: var(--clr-white);
+  font-weight: var(--fw-700);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-button:hover {
+  background-color: var(--clr-dark-gray);
+}
+
+.empty-button:active {
+  background-color: var(--clr-light-gray);
+}

@@ -1,0 +1,74 @@
+.welcome-section {
+  width: 31.1rem;
+  padding-inline: 1rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.large-title {
+  display: none;
+}
+
+.welcome-image {
+  display: none;
+}
+
+.welcome-title {
+  color: var(--clr-dark-blue);
+  margin-bottom: 4.1rem;
+}
+
+.paragaphs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.9rem;
+}
+
+.welcome-text {
+  color: var(--clr-dark-gray);
+}
+
+@media (min-width: 768px) {
+  .welcome-section {
+    width: 57.3rem;
+  }
+
+  .large-title {
+    display: block;
+    color: var(--clr-very-light-gray);
+    align-self: center;
+  }
+
+  .welcome-title {
+    margin-bottom: 5.6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .welcome-section {
+    width: 100%;
+  }
+
+  .dekstop-columns {
+    display: flex;
+    gap: 12.5rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -10rem;
+  }
+
+  .large-title {
+    align-self: flex-start;
+    z-index: 1;
+  }
+
+  .welcome-image {
+    display: block;
+  }
+
+  .paragaphs-container {
+    width: 44.6rem;
+    gap: 1.9rem;
+  }
+}

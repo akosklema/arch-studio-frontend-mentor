@@ -1,0 +1,22 @@
+.portfolio-section {
+  width: 31.1rem;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.4rem;
+}
+
+@media (min-width: 768px) {
+  .portfolio-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .portfolio-section {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3.2rem;
+    column-gap: 3rem;
+  }
+}

@@ -1,0 +1,52 @@
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 100%);
+}
+
+.image-text-container {
+  position: absolute;
+  top: 16.2rem;
+  left: 2.4rem;
+  z-index: 1;
+}
+
+.image-title {
+  color: var(--clr-white);
+}
+
+.date {
+  color: var(--clr-white);
+  opacity: 0.75;
+}
+
+.link {
+  font-size: 1.5rem;
+  color: var(--clr-white);
+  opacity: 0.75;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .image-text-container {
+    top: 14.6rem;
+    left: 4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .image-text-container {
+    top: 46.6rem;
+  }
+}

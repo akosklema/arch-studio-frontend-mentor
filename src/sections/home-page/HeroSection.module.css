@@ -1,0 +1,17 @@
+.hero-section {
+  position: relative;
+}
+
+.carousel-buttons {
+  position: absolute;
+  left: 0;
+  bottom: -8rem;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .carousel-buttons {
+    left: -8rem;
+    bottom: 0;
+  }
+}

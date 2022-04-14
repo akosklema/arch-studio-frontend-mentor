@@ -1,0 +1,21 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--clr-white);
+  z-index: 30;
+  animation: modalAnimation 0.2s ease-out;
+}
+
+@keyframes modalAnimation {
+  0% {
+    opacity: 0;
+    top: 30%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 50%;
+  }
+}

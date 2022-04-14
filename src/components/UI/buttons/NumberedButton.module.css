@@ -1,0 +1,21 @@
+.numbered-button {
+  width: 8rem;
+  height: 8rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: var(--fw-700);
+  background-color: var(--clr-white);
+  color: var(--clr-medium-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbered-button:not(.numbered-button--active ):hover {
+  background-color: var(--clr-very-light-gray);
+}
+
+.numbered-button--active {
+  background-color: var(--clr-dark-blue);
+  color: var(--clr-white);
+}

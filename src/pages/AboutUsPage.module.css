@@ -1,0 +1,35 @@
+.hero {
+  margin-bottom: 7.2rem;
+}
+
+.heritage {
+  margin-bottom: 7.2rem;
+}
+
+.leaders {
+  margin-bottom: 13.1rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin-bottom: 20rem;
+  }
+
+  .heritage {
+    margin-bottom: 17.5rem;
+  }
+
+  .leaders {
+    margin-bottom: 20rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .heritage {
+    margin-bottom: 20rem;
+  }
+
+  .leaders {
+    margin-bottom: 16rem;
+  }
+}

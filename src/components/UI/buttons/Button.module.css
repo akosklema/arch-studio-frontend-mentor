@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  background-color: var(--clr-dark-blue);
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 2.4rem 3.2rem;
+  font-weight: var(--fw-700);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.3rem;
+}
+
+.button:hover {
+  background-color: var(--clr-dark-gray);
+}
+
+.button:active {
+  background-color: var(--clr-light-gray);
+}

@@ -1,0 +1,79 @@
+.leader-card,
+.leader-image {
+  width: 31.1rem;
+}
+
+.image-container {
+  margin-bottom: 2.4rem;
+}
+
+.leader-name {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: var(--fw-700);
+  color: var(--clr-dark-blue);
+  margin-bottom: 0.4rem;
+}
+
+.leader-position {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: var(--fw-500);
+  color: var(--clr-dark-blue);
+  opacity: 0.75;
+  margin-bottom: 0.8rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 2.56rem;
+}
+
+.icon {
+  width: 3.2rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .leader-card,
+  .leader-image {
+    width: 28rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .leader-card {
+    width: unset;
+    position: relative;
+  }
+
+  .leader-image {
+    width: unset;
+  }
+
+  .icon-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35rem;
+    height: 32rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    transition: background-color 200ms;
+  }
+
+  .icon {
+    opacity: 0;
+    transition: opacity 200ms, background-color 200ms;
+  }
+
+  .icon-container:hover {
+    background-color: hsl(0 0% 0% / 0.5);
+  }
+
+  .icon-container:hover .icon {
+    opacity: 1;
+  }
+}
