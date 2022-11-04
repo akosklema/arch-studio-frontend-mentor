@@ -27,3 +27,16 @@ Technologies:
 - [Framer-Motion](https://www.framer.com/motion/) - For animaton
 - [React-Router V6](https://reactrouter.com/docs/en/v6) - For routing
 - [React-Leaflet](https://react-leaflet.js.org/) - For the map
+
+### **To run it locally**
+
+1. Clone or download this repository
+2. Install the dependecies:
+```sh
+$ npm install
+```
+3. Run the application:
+```sh
+$ npm start
+```
+The app will start on port: 3000.
